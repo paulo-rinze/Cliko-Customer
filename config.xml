@@ -37,10 +37,10 @@
 	<gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="3.7.1" />	
 		
 	<gap:plugin name="cordova-plugin-googlemaps-plus" source="npm" spec="1.4.0" >
-       <param name="API_KEY_FOR_ANDROID" value="" />
-       <param name="API_KEY_FOR_IOS" value="" />
-       <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
-       <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
+       <param name="API_KEY_FOR_ANDROID" value="AIzaSyC3qe_DPemU3t_GJYT6F-GpJKlwQvgUO1w" />
+       <param name="API_KEY_FOR_IOS" value="AIzaSyC3qe_DPemU3t_GJYT6F-GpJKlwQvgUO1w" />
+       <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Cliko wants to use your location" />
+       <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Cliko want to always use your location" />
     </gap:plugin>
     
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />

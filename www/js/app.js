@@ -2729,7 +2729,7 @@ function callAjax(action,params)
 					//htm+='<ons-list-header class="list-header trn" >'+ getTrans('City','city') +'</ons-list-header>';
 			       $.each( data.details, function( city_key , city_val ) { 
 			       	
-			       	 htm+='<ons-list-item modifier="tappable" onclick="setLocationCity('+"'"+city_val.id+"',"+"'"+city_val.name+"'"+ ');">';
+			       	 htm+='<ons-list-item modifier="tappable" onclick="setLocationCity('+"'"+city_val.id+"',"+"'"+city_val.name+"',"+  "'" + city_val.state_id + "'" +  ');">';
 					 htm+='<label class="radio-button checkbox--list-item">';
 						htm+='<input type="radio" name="channel_m" class="channel_m" value="'+city_val.id+'"  >';
 						htm+='<div class="radio-button__checkmark checkbox--list-item__checkmark"></div>';
@@ -8843,10 +8843,15 @@ function loadAjaxLocationCity(s)
     }*/
 }
 
-function setLocationCity(city_id , city_name )
+function setLocationCity(city_id , city_name, state_id  )
 {
 	global_city_name = city_name;
 	global_city_id = city_id;
+
+	if(!empty(state_id)){
+	       global_state_id = state_id;
+	    }
+
 	$(".city_id").val( city_id );
 	$(".location_city").html( city_name );
 

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "608557159542",
+    "firebase_url": "https://cliko-krms-232509.firebaseio.com",
+    "project_id": "cliko-krms-232509",
+    "storage_bucket": "cliko-krms-232509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608557159542:android:51bbeff045563903",
+        "android_client_info": {
+          "package_name": "mz.co.cliko.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608557159542-utd3q9r1p9im2fso2o8j9vumkqfrqc9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkjbseAXpSI7wjmLlZOwR17XbCLeNgXoo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
